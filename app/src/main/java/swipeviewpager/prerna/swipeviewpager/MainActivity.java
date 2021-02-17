@@ -35,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(adapter);
         viewPager.setPadding(130, 0, 130, 0);
 
+
+
+
+
+
+
+
+
         Integer[] colors_temp = {
                 getResources().getColor(R.color.color1),
                 getResources().getColor(R.color.color2),
@@ -42,6 +50,11 @@ public class MainActivity extends AppCompatActivity {
                 getResources().getColor(R.color.color4)
         };
 
+
+
+
+
+        
         colors = colors_temp;
 
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
