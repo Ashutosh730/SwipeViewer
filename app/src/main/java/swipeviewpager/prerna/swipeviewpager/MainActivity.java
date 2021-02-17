@@ -54,8 +54,11 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        
+
         colors = colors_temp;
+
+
+
 
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
